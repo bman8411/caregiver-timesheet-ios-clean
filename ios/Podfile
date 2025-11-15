@@ -1,4 +1,6 @@
-﻿# Uncomment this line to define a global platform for your project
+﻿# Load Flutter pod helper
+require File.join(File.dirname(__FILE__), '.symlinks', 'plugins', 'flutter_ios_pod_helper.rb')
+
 platform :ios, '13.0'
 
 target 'Runner' do
