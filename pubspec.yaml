@@ -1,0 +1,29 @@
+name: caregiver_timesheet_app
+description: A caregiver timesheet app with EVV and MN tax calculator.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.0
+  geolocator: ^10.1.0
+  pdf: ^3.10.8
+  path_provider: ^2.1.2
+  intl: ^0.18.1
+  permission_handler: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
